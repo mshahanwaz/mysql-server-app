@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app {
+  max-width: 800px;
+  min-height: 100vh;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.form {
+  width: 100%;
+}
+
+.form > div {
+  display: flex;
+  margin: 10px 0;
+}
+
+.form label {
+  flex: 0.2;
+}
+
+.form input {
+  width: inherit;
+  flex: 0.8;
+}
+
+.show {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1 {
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: left;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 8px;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.show button {
+  margin: 10px 0;
+}
+
+.show > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 
+.list {
+}
+
+.list div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list div p {
+  margin: 10px;
+}
+*/
+
+.table {
+  width: 100%;
+  /* background-color: blanchedalmond; */
+  border: 1px solid black;
+  border-collapse: collapse;
+  /* user-select: none; */
+}
+
+.table th,
+.table td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 5px 6px;
+}
+
+.table tbody tr:nth-child(2n + 1) {
+  background-color: rgb(236, 236, 236);
+}
+
+.center {
+  text-align: center !important;
+}
+
+/* tr:hover {
+  background-color: black !important;
+  color: white;
+} */
